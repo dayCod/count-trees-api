@@ -6,5 +6,5 @@ Take and combine from country.io[https://country.io] and FlagsAPI[https://flagsa
 - FlagsAPI [https://flagsapi.com/]
 
 ## Author
-= dayCod
+- dayCod
 - daycodestudioproject@gmail.com
