@@ -9,8 +9,7 @@ cd src/Content/
 Use that files according on your needs.
 ```
 
-### Or
-Use Api Below
+### Or Use Public Api Below
 ```
 https://raw.githubusercontent.com/dayCod/count-trees/content/src/Content/countries_json.json
 ```
