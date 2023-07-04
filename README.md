@@ -14,10 +14,6 @@ Use that files according on your needs.
 https://raw.githubusercontent.com/dayCod/count-trees/content/src/Content/countries_json.json
 ```
 
-## Want to know more about country.io and flags api ?
-- Country.io [https://country.io]
-- FlagsAPI [https://flagsapi.com/]
-
 ## Author
 - dayCod
 - daycodestudioproject@gmail.com
