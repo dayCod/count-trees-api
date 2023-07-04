@@ -1,4 +1,5 @@
 ## About Count-trees
+<img src="https://raw.githubusercontent.com/dayCod/count-trees/content/countrees.png" width="230" alt="Laravel Logo">
 Take and combine from country.io[https://country.io] and FlagsAPI[https://flagsapi.com/], Count-trees presents a list of countries in the form of country names, country codes, country mobile codes and country icons, why Count-trees because over time the hope is that the population of plants in various countries will not decrease so that there is no globalization
 
 ## Usage
