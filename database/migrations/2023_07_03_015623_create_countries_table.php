@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('country_code')->unique();
             $table->string('country_name')->unique();
             $table->string('country_phone_code');
+            $table->string('country_currency');
             $table->text('country_icon_link')->comment('Country Icon Link');
             $table->integer('created_at');
             $table->integer('updated_at');
