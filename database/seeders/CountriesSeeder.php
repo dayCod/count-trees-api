@@ -15,23 +15,9 @@ class CountriesSeeder extends Seeder
      */
     public function run()
     {
-        $array = [];
+        $countries = (array)json_decode(http_request("https://raw.githubusercontent.com/dayCod/count-trees/content/src/Content/countries_json.json"));
 
-        $countries = (array)json_decode(http_request(config('country-api.country-name')));
-        $country_phone_code = (array)json_decode(http_request(config('country-api.country-phone-code')));
-
-        foreach($countries as $index => $country) {
-            $array["$country"] = [
-                'country_code' => $index,
-                'country_name' => $country,
-                'country_phone_code' => array_filter($country_phone_code, function ($value, $key) use ( $index ) {
-                    return $key == $index;
-                }, ARRAY_FILTER_USE_BOTH)[$index],
-                'country_icon_link' => "https://flagsapi.com/$index/flat/64.png",
-            ];
-        }
-
-        foreach($array as $index => $value) {
+        foreach($countries as $index => $value) {
             Countries::insert([
                 'country_code' => $value['country_code'],
                 'country_name' => $value['country_name'],
