@@ -14,6 +14,8 @@ Use that files according on your needs.
 https://raw.githubusercontent.com/dayCod/count-trees/content/src/Content/countries_json.json
 ```
 
-## Author
-- dayCod
-- daycodestudioproject@gmail.com
+## Credit
+- [Wirandra Alaya](https://github.com/dayCod)
+
+## License
+This project is released under the [MIT](http://opensource.org/licenses/MIT) license.
